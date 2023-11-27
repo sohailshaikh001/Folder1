@@ -5,9 +5,9 @@
 
   <groupId>org.sonarqube</groupId>
   <artifactId>sonarscanner-maven-basic</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-SNAP</version>
 
-  <name>Example of basic Maven project</name>
+  <name>Example of Advanced Maven project</name>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -19,16 +19,16 @@
     <dependency>
       <groupId>com.google.guava</groupId>
       <artifactId>guava</artifactId>
-      <version>27.1-jre</version>
+      <version>28.1-jre</version>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
+      <groupId>kunit</groupId>
+      <artifactId>kunit</artifactId>
       <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
-
+ This is a new line by me...!!
   <build>
     <pluginManagement>
       <plugins>
