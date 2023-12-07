@@ -1,6 +1,6 @@
 ## aded new line to test using command
-	
-
+	## this is a pull test...!!
+## online edit
     stages {
        
         stage('Checkout') {
@@ -14,7 +14,7 @@
     
             }
         }
-        
+        ## changing to test
         stage('build'){
 		tools {
         	maven 'Maven_home' 
